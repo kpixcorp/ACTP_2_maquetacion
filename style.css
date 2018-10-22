@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	margin: 0;
+	background: black;
+	padding: 5px;
+	border: none;
+}
+
+.navbar-brand img {
+	width: 90px;
+	margin: 0 0 0 10vw;
+}
+
+.navbar-nav a {
+	color: white;
+	padding: 0;
+}
+
+.header {
+	background-image: url(assets/img/post-image.jpg);
+	background-size: cover;
+	background-position: 0;
+	font-family: "Playfair Display";
+	color: white;
+	text-align: center;
+	padding: 9vh;
+}
+
+.header h1 {
+	font-style: italic;
+    font-weight: 700;
+	font-size: 3.5em;
+	padding: 0 30vw;
+}
+
+.header__container img {
+	width: 50px;
+	margin: 70px 0 0 0;
+}
+
+.entry__date {
+	color: #bbb;
+	display: block;
+	font-family:"Playfair Display";
+	font-weight: 400;
+	padding: 5px;
+}
+
+.date__icon {
+	float: left;
+	margin: 5px;
+}
+
+.entry {
+	padding: 8vh 13vw;
+	font-family:"Roboto";
+	font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.entry__social {
+	height: 20vh;
+	padding: 20px 0;
+}
+
+.social__backg {
+	width: 50px;
+	height: 50px;
+	background-color: #707070;
+	border-radius: 50px;
+	float: left;
+	margin: 5px;
+}
+
+.social__backg img {
+	width: 35px;
+	margin: 8px 7px;
+}
+
+.social__backg2 {
+	width: 200px;
+	height: 50px;
+	background-color: #707070;
+	border-radius: 50px;
+	float: left;
+	margin: 5px;
+	color: white;
+}
+
+.social__backg2 img {
+	width: 40px;
+	margin: 8px 7px;
+}
+
+.social__backg2 a {
+	margin: 25px 5px;
+	color: white;
+}
+
+
+.bloggera {
+	border-top: solid #ccc 1px;
+}
+
+.bloggera__photo {
+	width: 50%;
+	float: left;
+}
+
+.bloggera__photo img {
+	border-radius: 300px;
+	width: 50%;
+	margin: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.bloggera__photo h1 {
+	font-size: 2em;
+	font-family: "Playfair Display";
+	font-style: italic;
+    font-weight: 700;
+    float: left;
+
+}
+
+.bloggera__photo p {
+	width: 50%;
+	box-sizing: border-box;
+
+}
+.bloggera__lorem {
+	width: 50%;
+	float: left;
+	padding: 30px 0;
+	font-size: 0.95em;
+	font-family:"Roboto";
+	font-style: normal;
+    font-weight: 400;
+
+}
+
